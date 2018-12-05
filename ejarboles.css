@@ -51,6 +51,12 @@
   text-align: center;
 }
 
+.jebusdos .fas {
+  margin: 2px;
+  color: #a2441e;
+  font-size: 11px;
+}
+
 .jebusdos {
   width: 350px;
   height: 100px;
@@ -58,6 +64,7 @@
   outline: 1px dotted #bbb;
   margin: auto;
   margin-top: -5px;
+  overflow: auto;
 }
 
 .jebustres {
