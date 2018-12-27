@@ -1,0 +1,68 @@
+#jebusuno {
+  width: 400px;
+  height: 330px;
+  background-color: #eaeaea;
+  border-top: 20px solid #5d7633;
+  margin: auto;
+}
+
+.jebusimg {
+  width: 50px;
+  height: 50px;
+  outline: 5px solid #a2441e;
+  display: inline-block;
+  margin-top: -50px;
+  margin-left: 25px;
+}
+
+.jebuscontext {
+  width: 300px;
+  height: auto;
+  margin: 40px auto;
+  font-family: Lato;
+  font-size: 10px;
+  line-height: 170%;
+  color: #555;
+}
+
+.jebuscontext2 {
+  width: 90px;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.jebuscontext2 .fas {
+  margin: 2px;
+  color: #a2441e;
+  font-size: 11px;
+}
+
+.jebustuno {
+  font-family: Raleway;
+  font-size: 12px;
+  color: #a2441e;
+  text-transform: uppercase;
+}
+
+.jebusubt {
+  text-align: center;
+}
+
+.jebusdos {
+  width: 350px;
+  height: 100px;
+  background-color: #dadada;
+  outline: 1px dotted #bbb;
+  margin: auto;
+  margin-top: -5px;
+}
+
+.jebustres {
+  font-family: Lato;
+  color: #555;
+  font-size: 10px;
+  padding: 20px;
+}
