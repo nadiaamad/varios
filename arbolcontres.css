@@ -58,6 +58,7 @@
   outline: 1px dotted #bbb;
   margin: auto;
   margin-top: -5px;
+  overflow: auto;
 }
 
 .jebustres {
