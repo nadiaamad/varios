@@ -22,7 +22,7 @@
 .fas {
   font-size: 10px;
   color: #333;
-  margin-left: 12px;
+  margin: 4px 0px 0px 10px;
 }
 
 .jackot {
@@ -31,6 +31,7 @@
   font-size: 8px;
   letter-spacing: 1px;
   color: #444;
-  padding: 55px 20px 0px 20px;
+  padding: 60px 20px 0px 20px;
   text-align: justify;
+  line-height: 130%;
 }
