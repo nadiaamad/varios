@@ -1,4 +1,4 @@
-#jacko0 {
+.jacko0 {
   width: 241px;
   height: 150px;
   margin: auto;
@@ -19,7 +19,7 @@
   background-color: #0a0a0a;
 }
 
-.fas {
+.jacko0 .fas {
   font-size: 10px;
   color: #333;
   margin: 4px 0px 0px 10px;
