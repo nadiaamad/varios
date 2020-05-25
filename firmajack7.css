@@ -1,0 +1,44 @@
+#fjack1 {
+  width: 249px;
+  height: 200px;
+  border: 10px solid #272725;
+  outline: 1px solid #2f2f2f;
+  outline-offset: -10px;
+  margin: auto;
+}
+.fjack2 {
+  width: 80px;
+  height: 35px;
+  background-color: #aeaea9;
+  opacity: 0.5;
+  margin: 150px 1px;
+  outline: 1px solid #f9f9f9;
+}
+.fjack3 {
+  width: 80px;
+  height: 35px;
+  background-color: #aeaea9;
+  opacity: 0.5;
+  margin: -185px 168px;
+  outline: 1px solid #f9f9f9;
+}
+.fjacktxt1{
+  font-family: Arial Black;
+  font-size: 27px;
+  font-weight: 800;
+  color: #eee;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 152px 3px 0px 0px;
+  letter-spacing: -1px;
+}
+.fjacktxt2 {
+  font-family: Arial;
+  font-size: 9px;
+  font-weight: 200;
+  color: #bdbdbd;
+  text-transform: lowercase;
+  text-align: center;
+  margin: -37px 0px 0px 2px;
+  letter-spacing: 1px;
+}
