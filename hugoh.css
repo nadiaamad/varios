@@ -1,0 +1,33 @@
+#salobox {
+  width: 248px;
+  height: 198px;
+  outline: 1px solid #384643;
+  outline-offset: 5px;
+  margin: auto;
+  padding: 1px;
+}
+.salobox2 {
+  width: 45px;
+  height: 21px;
+  background-color: #384643;
+  margin: -163px 35px;
+  transition: width 2s;
+}
+#salobox:hover .salobox2 {
+  width: 170px;
+}
+.salotext {
+  font-family: Arial;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 145px 90px;
+  color: #ebebeb;
+  text-shadow: 1px 1px #080908;
+  opacity: 0;
+  transition: 0.5s;
+}
+#salobox:hover .salotext {
+  transition: 0.5s;
+  opacity: 1;
+}
