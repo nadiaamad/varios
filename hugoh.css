@@ -10,7 +10,7 @@
   width: 45px;
   height: 21px;
   background-color: #384643;
-  margin: -163px 35px;
+  margin: -159px 38px;
   transition: width 2s;
 }
 #salobox:hover .salobox2 {
@@ -21,7 +21,7 @@
   font-weight: 800;
   font-size: 20px;
   text-transform: uppercase;
-  margin: 150px 90px;
+  margin: 144px 84px;
   color: #ebebeb;
   text-shadow: 1px 1px #080908;
   opacity: 0;
