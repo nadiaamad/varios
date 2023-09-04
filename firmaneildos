@@ -1,0 +1,75 @@
+#wen {
+  background-image:url(https://i.imgur.com/YDT8Tek.png);
+  width:280px;
+  height:200px;
+  margin:auto;
+  border:10px solid #111;
+  outline:1px solid #555;
+  outline-offset:-1px;
+position: relative;
+  overflow: hidden;
+ transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+}
+#wen:hover { transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+ outline-offset:4px;
+  background-image:url(https://i.imgur.com/oaspALN.png);
+}
+.wen-txt {width:140px;
+    text-align: justify;
+    color: #ccc;
+  float:right;
+  padding:5px;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-family: calibri;
+    letter-spacing: 1px;
+    padding: 6px;
+  line-height:9px;
+  margin-top:165px;
+   transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+}
+#wen:hover .wen-txt{
+ margin-top:-10px;
+  margin-right:60px;
+   transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+}
+.wen-txt:after{
+    content: attr(data-text);
+    position: absolute;
+  color:#B4654A;
+  font-style:italic;
+  font-weight:900;
+  margin-left:4px;
+}
+.wen-txt1{text-shadow: 2px 0 0 #B4654A;
+ text-align: justify;
+    color: #ccc; 
+   padding:5px;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-family: arial;
+  font-weight:900;
+   margin-top:155px;  
+  float:right;
+    transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+}
+#wen:hover .wen-txt1{
+  margin-right:130px;
+ margin-top:80px;  
+   transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+}
+.wen-txt1:after{
+  text-shadow: 2px 0 0 #000;
+    content: attr(data-text);
+    position: absolute;
+  color:#B4654A;
+  font-style:italic;
+  font-weight:900;
+  margin-left:4px;
+}
