@@ -6,7 +6,7 @@
 .shawn1 {
   width: 120px;
   height: 130px;
-  background-color: #0e0e0e;
+  background-color: #1c1c1c;
   display: inline-block;
   vertical-align: top;
   margin-bottom: 3px;
@@ -14,19 +14,20 @@
 .shawn2 {
   width: 241px;
   height: 20px;
-  background-color: #0e0e0e;
+  background-color: #1c1c1c;
 }
 .fas {
   font-size: 10px;
   color: #444;
   margin-left: 12px;
+  padding-top: 4px;
 }
 .shawnt {
-  font-family: Merriweather;
+  font-family: Arial;
   text-transform: lowercase;
   font-size: 8px;
   letter-spacing: 1px;
-  color: #666;
+  color: #888;
   padding: 55px 20px 0px 20px;
   text-align: justify;
 }
