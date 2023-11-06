@@ -1,0 +1,32 @@
+#shawn0 {
+  width: 241px;
+  height: 150px;
+  margin: auto;
+}
+.shawn1 {
+  width: 120px;
+  height: 130px;
+  background-color: #0e0e0e;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 3px;
+}
+.shawn2 {
+  width: 241px;
+  height: 20px;
+  background-color: #0e0e0e;
+}
+.fas {
+  font-size: 10px;
+  color: #444;
+  margin-left: 12px;
+}
+.shawnt {
+  font-family: Merriweather;
+  text-transform: lowercase;
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: #666;
+  padding: 55px 20px 0px 20px;
+  text-align: justify;
+}
