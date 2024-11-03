@@ -1,0 +1,65 @@
+body {background-color: #000;}
+.caja1 {
+    width: 400px;
+    height: 90px;
+    padding: 2px;
+    margin: 5px;
+    background-image: url("https://i.imgur.com/e6Y86hn.png");
+}
+.caja2 {
+    width: 180px;
+    margin-top: 9px;
+    height: 70px;
+    background-color: #060f0f;
+    outline: 1px solid #1a2a2a;
+    outline-offset: -6px;
+}
+.texto1 {
+  font-family: Merriweather;
+  text-transform: lowercase;
+  font-size: 11px;
+  text-align: center;
+  color: #959595;
+padding-top: 27px;
+}
+.caja3 {
+  width: 404px;
+  height: 200px;
+  background-color: #060f0f;
+  margin: -2px;
+  overflow: auto;
+}
+.activos {
+  width: 17px;
+  height: 17px;
+  background-color: #3e9a5f;
+}
+.texto2 {
+  font-family: Montserrat;
+  font-size: 9px;
+  color: #9d9d9d;
+  padding: 3px;
+}
+.cerrados {
+  width: 17px;
+  height: 17px;
+  background-color: #9a3e3e;
+}
+.inconclusos {
+  width: 17px;
+  height: 17px;
+  background-color: #9a833e;
+}
+.caja4 {
+  width: 340px;
+  height: 18px;
+  background-color: #192929;
+}
+.texto3 {
+  font-family: Merriweather;
+  font-size: 11px;
+  color: #848484;
+  text-align: right;
+  text-transform: lowercase;
+  padding: 20px;
+}
