@@ -1,0 +1,60 @@
+.martinmother {width: 500px;
+height: 390px;
+background-color: #1F1F1F;
+outline: 1px solid #333;
+outline-offset: -5px;
+margin: auto;}
+.mmsubtitle {
+      position: absolute;
+      top: 87px; 
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: Manrope;
+      font-size: 10px;
+      font-weight: normal;
+      color: #999;
+      background: #1F1F1F;
+      padding: 2px 10px;
+    }
+.mmtitle {
+font-family: Archivo Black;
+font-size: 68px;
+text-transform: uppercase;
+text-align: center;
+padding: 40px 0px 20px 0px;
+color: #165749;
+letter-spacing: -10px;}
+.mmcontdatos {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;}
+.mmpic {
+  width: 130px;
+  height: 130px;
+  outline: 1px solid #444;
+  outline-offset: -2px;
+background-color: #999;}
+.mmcontdatos2 {position: absolute;
+width: 200px;
+margin-left: 145px;}
+.mmdatos {
+  font-family: Manrope;
+font-size: 10px;
+text-transform: uppercase;
+width: 200px;
+  height: 20px;
+  color: #777;
+border-bottom: 1px solid #2c2c2c;
+  padding-top: 5px;
+}
+.mmicons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fas {
+  font-size: 15px;
+  margin: 25px 15px 0px 0px;
+  color: #165749;
+}
