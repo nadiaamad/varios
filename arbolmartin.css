@@ -1,0 +1,34 @@
+.boxuno {
+  width: 300px;
+  height: 300px;
+  background-color: #191919;
+  border: 8px solid #464d3f;
+  outline: 1px solid #666f5c;
+  outline-offset: -11px;
+}
+.boxdos {
+  width: 300px;
+  height: 60px;
+  margin-top: 20px;
+}
+.txtuno {
+  font-family: Merriweather;
+  font-size: 10px;
+  color: #a8a8a8;
+  text-transform: lowercase;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
+.boxtres{
+  width: 200px;
+  height: 120px;
+  margin: 30px 0px 0px 0px;
+  overflow: auto;
+}
+.txtdos {
+  font-family: Lato;
+  font-size: 10px;
+  text-align: justify;
+  color: #a8a8a8;
+  padding: 10px;
+}
