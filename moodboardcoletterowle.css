@@ -52,11 +52,9 @@
 }
 .moodinfo {
   width: 210px;
-  border-bottom: 1px solid #111;
   font-family: Calibri;
   font-size: 10px;
   color: #777;
-  padding: 2px 0px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
