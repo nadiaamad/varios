@@ -1,0 +1,153 @@
+#moodone {
+  width: 450px;
+  height: auto;
+  background-color: #0c0c0c;
+  background-repeat: repeat;
+  border: 12px solid #070707;
+  outline: 1px solid #333;
+  outline-offset: -12px;
+  margin: auto;
+  padding: 30px 0;
+}
+.moodtxtone {
+  font-family: Oswald;
+  font-size: 55px;
+  color: #5269B5;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -2px;
+  text-shadow: 3px 3px #000;
+  margin: 40px auto;
+}
+.mothermood {
+  width: 380px;
+  margin: 50px auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mooddata {
+  width: 280px;
+  height: 355px;
+  background-color: #070707;
+  border: 1px dotted #252525;
+}
+.moodsoporte {
+  margin: 20px;
+}
+.moodsoporte2, .mooddato {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+}
+.moodicons.fas {
+  width: 20px;
+  height: 20px;
+  background-color: #111;
+  font-size: 11px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moodinfo {
+  width: 210px;
+  border-bottom: 1px solid #111;
+  font-family: Calibri;
+  font-size: 10px;
+  color: #777;
+  padding: 2px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.moodsoporte2 {
+  background-color: #0a0a0a;
+  padding: 8px 13px;
+}
+.moodsong {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.moodcplay.fas {
+  width: 50px;
+  height: 50px;
+  background-color: #080808;
+  border: 1px dotted #222;
+  font-size: 20px; 
+  color: #777;
+  border-radius: 20px 20px 20px 20px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moodsongtitle {
+  width: 70px;
+  font-family: calibri;
+  font-size: 10px;
+  color: #aaa;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: justify;
+}
+.moodsongtitle span {
+  color: #777; 
+  text-transform: lowercase; 
+  letter-spacing: 2px;
+  font-style: italic;
+}
+.mothermood2 {
+  height: 364px;
+  margin: -7px 0 0 14px;
+}
+.moodicon {
+  width: 70px;
+  height: 70px;
+  border: 7px solid #070707;
+  margin: 7px 0;
+  transition: transform 2s ease, background 1s ease;
+}
+.moodicon1 {
+  background-image: url("https://i.imgur.com/ahetu5Z.png");
+}
+.moodicon2 {
+  background-image: url("https://i.imgur.com/U898zdq.png");
+}
+.moodicon3 {
+  background-image: url("https://i.imgur.com/N3cgkW5.png");
+}
+.moodicon4 {
+  background-image: url("https://i.imgur.com/3mwE7Pk.png");
+}
+.moodicon1:hover {
+  transform:rotate(360deg);
+  background-image: url("https://i.imgur.com/nIk9xmZ.png");
+}
+.moodicon2:hover {
+  transform:rotate(360deg);
+  background-image: url("https://i.imgur.com/jFioC3e.png");
+}
+.moodicon3:hover {
+  transform:rotate(360deg);
+  background-image: url("https://i.imgur.com/usXvDgF.png");
+}
+.moodicon4:hover {
+  transform:rotate(360deg);
+  background-image: url("https://i.imgur.com/7sg5slT.png");
+}
+.moodfooter {
+  width: 378px;
+  height: 50px;
+  background-color: #070707;
+  margin: auto;
+  border: 1px dotted #252525;
+  font-family: calibri;
+  font-size: 10px;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
