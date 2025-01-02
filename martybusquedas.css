@@ -40,20 +40,24 @@ b, strong {
   background-color: #0a0a0a;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   border-bottom: 7px solid #24917a;
   align-content: center;
   justify-content: center;
+  margin-top: -5%;
+  padding-bottom: 10%;
 }
 .martyphoto {
   width: 150px;
   height: 150px;
   border: 5px solid #050505;
   outline: 1px solid var(--cl);
+  margin-top: 10%;
 }
 .martytitlebox {
   width: 250px;
   align-content: center;
+  margin-top: 15%
 }
 .martytitletext {
   font-family: Poppins;
@@ -68,11 +72,13 @@ b, strong {
   font-family: Quicksand;
   font-size: .8em;
   color: #888;
-  margin-top: -3%;
+  margin-top: -10%;
 }
 .martysearch {
   margin: 7%;
   text-align: right;
+  margin-top: 0%;
+  margin-bottom: -5%;
 }
 .martytitlesearch {
   font-family: Poppins;
@@ -88,12 +94,14 @@ b, strong {
   letter-spacing -1px;
   background-color: #0a0a0a;
   padding: 5px;
-  margin-left: -8%;
+  margin-left: -9%;
+  margin-top: -5%;
 }
 .martysearchdesc {
   font-family: Quicksand;
   font-size: 0.8em;
   color: #CCC;
-  margin-top: 4%;
+  margin-top: -2%;
   text-align: justify;
+  line-height: normal;
 }
