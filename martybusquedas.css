@@ -1,27 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Mulish&family=Josefine+Sans&family=Lexend&family=Alata&family=Archivo+Black&family=Quicksand&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
-:root {
-  --imagen-fondo: url(https://i.imgur.com/pfn5o06.png);
-  --img-staff1: url(https://i.imgur.com/HzX08Jg.png);
-  --img-staff2: url(https://i.imgur.com/cvM6Jei.png);
-  --img-staff3: url(https://i.imgur.com/P6tOwYh.png);
-  --img-footer: url(https://i.imgur.com/WXvWwkU.png);
-  --fuente1: Roboto Condensed;
-  --fuente2: Perpetua;
-  --fuente3: Caladea;
-  --fondo1: #080808db;
-  --fondo2: #00000078;
-  --color1: #58ad9f;
-  --color2: #748786;
-  --textobase: #cfcfcf;
-  --borde1: 1px solid #000;
-  --borde1-c: #000;
-  --borde2: 20px solid #0000001f;
-  --borde2-c: #0000001f;
-  --sombra: 1px 0 0 #000;
-  --blur: blur(3px);
-  --heightheader: 700px;
-}
 .martymother {
   width: 550px;
   height: auto;
@@ -30,13 +7,13 @@
   background-color: #111;
   margin: auto;
 }
-b, strong {
+.martymother :is(b, strong) {
   color: var(--color1);
   font-weight: bold;
 }
 .martyheader {
   width: 100%;
-  height: 200px;
+  height: 230px;
   background-color: #0a0a0a;
   display: flex;
   flex-wrap: wrap;
@@ -44,20 +21,16 @@ b, strong {
   border-bottom: 7px solid #24917a;
   align-content: center;
   justify-content: center;
-  margin-top: -5%;
-  padding-bottom: 10%;
 }
 .martyphoto {
   width: 150px;
   height: 150px;
   border: 5px solid #050505;
   outline: 1px solid var(--cl);
-  margin-top: 10%;
 }
 .martytitlebox {
   width: 250px;
   align-content: center;
-  margin-top: 15%
 }
 .martytitletext {
   font-family: Poppins;
@@ -66,19 +39,15 @@ b, strong {
   text-transform: uppercase;
   color: #AAA;
   letter-spacing: -2px;
-  margin-top: -4%;
 }
 .martysubtitletext {
   font-family: Quicksand;
   font-size: .8em;
   color: #888;
-  margin-top: -10%;
 }
 .martysearch {
   margin: 7%;
   text-align: right;
-  margin-top: 0%;
-  margin-bottom: -5%;
 }
 .martytitlesearch {
   font-family: Poppins;
@@ -94,14 +63,15 @@ b, strong {
   letter-spacing -1px;
   background-color: #0a0a0a;
   padding: 5px;
-  margin-left: -9%;
-  margin-top: -5%;
+  margin: 7px 0 7px -9%;
 }
 .martysearchdesc {
   font-family: Quicksand;
   font-size: 0.8em;
   color: #CCC;
-  margin-top: -2%;
   text-align: justify;
   line-height: normal;
+}
+:is(.martytitlebox, .martyheader, .martymother, .martysearch) > br {
+  display: none;
 }
