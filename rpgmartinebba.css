@@ -3,11 +3,11 @@
 /* Contenedor principal responsivo */
 .martymartin {
   max-width: 100%;
-  width: 550px; 
+  width: 700px; 
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #191919;
+  background-color: #0a0a0a;
   padding: 4%;
   outline: 1px solid #1e1e1e;
   outline-offset: -5px;
@@ -51,7 +51,7 @@
   margin-top: 10%;
 }
 i {
-  color: #24917a; 
+  color: #775a78; 
   font-size: 14px; 
   padding: 10%;
   margin: 
@@ -59,7 +59,7 @@ i {
 p::first-letter {
   font-size: 4rem;
   font-weight: bold;
-  color: #24917a;
+  color: #775a78;
   float: left;
   margin-right: 10px;
   font-family: 'Abril Fatface', sans-serif;
