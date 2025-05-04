@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+/* Contenedor principal responsivo */
+.martymartin {
+  max-width: 100%;
+  width: 550px; 
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #191919;
+  padding: 4%;
+  outline: 1px solid #1e1e1e;
+  outline-offset: -5px;
+}
+/* Ajustes tipográficos */
+.martymartin p,
+.martymartin h1,
+.martymartin h2 {
+  font-size: 1rem; /* Tamaño base para texto */
+  line-height: 1.6;
+  text-align: justify;
+}
+.martymartin h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #24917a;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.martymartin h2 {
+  font-family: Roboto;
+  font-size: 09px;
+  text-align: center;
+  color: #6e6e6e;
+  letter-spacing: 1px;
+  margin-top: -7%;
+  text-transform: uppercase;
+}
+.martymartin p {
+  font-family: 'Raleway', sans-serif;
+  color: #aaa;
+  font-size: 11px;
+  margin-top: 10%;
+}
+.martyline {
+  width: auto;
+  height: 1px;
+  background-color: #252525;
+  margin-top: 10%;
+}
+i {
+  color: #24917a; 
+  font-size: 14px; 
+  padding: 10%;
+  margin: 
+}
+p::first-letter {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #24917a;
+  float: left;
+  margin-right: 10px;
+  font-family: 'Abril Fatface', sans-serif;
+  line-height: 0.9;
+}
